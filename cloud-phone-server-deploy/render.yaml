@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: cloud-phone-task-server
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
